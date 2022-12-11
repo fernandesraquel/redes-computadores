@@ -74,15 +74,6 @@ void minusculo(char* str, char* buffer){
     buffer[i] = '\0';
 }  
 
-void maiusculo(char* str, char* buffer){
-    int i = 0;
-    while(str[i] != '\0'){
-        buffer[i] = toupper(str[i]);
-        i++;
-    }
-    buffer[i] = '\0';
-}  
-
 void telaInicial() {
     printf("\n\n");
     printf("--------------------------------------------------------------------\n");
